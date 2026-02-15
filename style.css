@@ -559,10 +559,9 @@ main {
 }
 
 /* Content */
-
-.responsive{
-  margin-right: 1rem;
-}
+  .responsive__videos video{
+    width: 300px;
+  }
 .seo__container.grid{
   gap: 0;
 }
@@ -1039,7 +1038,7 @@ main {
     border-right: 2px dashed var(--first-color);
    
   }
-  .responsive__video{
+  .responsive__videos video{
     width: 450px;
   }
 }
@@ -1152,4 +1151,5 @@ main {
   html {
     zoom: 1.4;
   }
+
 }
